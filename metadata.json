@@ -1,0 +1,6 @@
+{
+  "name": "ALIP STUDIO - Film Production & Equipment Rental",
+  "description": "Professional film production services, cinematic equipment rental, and experienced creative professionals in one studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
