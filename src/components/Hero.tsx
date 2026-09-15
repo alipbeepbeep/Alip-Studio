@@ -55,7 +55,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
         {/* Studio Badge */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900/80 border border-red-500/30 text-neutral-300 text-xs font-medium tracking-wide mb-6 backdrop-blur-md">
           <Sparkles className="w-3.5 h-3.5 text-red-500" />
-          <span>Professional Film Production & Rental Studio</span>
+          <span>Studio Produksi Film & Rental Peralatan Profesional</span>
         </div>
 
         {/* Big Headline */}
@@ -63,9 +63,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
           id="hero-headline"
           className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight uppercase leading-[1.05] sm:leading-[1.02] mb-6 drop-shadow-2xl"
         >
-          BRING YOUR <br className="hidden sm:inline" />
+          WUJUDKAN CERITAMU <br className="hidden sm:inline" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-200 to-neutral-400">
-            STORY TO LIFE.
+            MENJADI NYATA.
           </span>
         </h1>
 
@@ -74,8 +74,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
           id="hero-subheadline"
           className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-neutral-300 font-normal leading-relaxed mb-10 text-balance"
         >
-          Professional film production services, cinematic equipment rental, and experienced
-          creative professionals — all in one studio.
+          Layanan produksi film profesional, penyewaan peralatan sinematik berstandar industri,
+          dan tenaga kreatif berpengalaman — semua dalam satu studio.
         </p>
 
         {/* Dual CTA Buttons */}
@@ -85,7 +85,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
             onClick={onExploreServices}
             className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-sm tracking-wide border border-white/20 hover:border-white/40 transition-all duration-200 flex items-center justify-center gap-2 group shadow-xl hover:-translate-y-0.5"
           >
-            <span>Explore Our Services</span>
+            <span>Jelajahi Layanan Kami</span>
             <ArrowRight className="w-4 h-4 text-neutral-400 group-hover:text-white group-hover:translate-x-1 transition-all" />
           </button>
 
@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
             className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-red-600 hover:bg-red-700 active:bg-red-800 text-white font-semibold text-sm tracking-wide transition-all duration-200 flex items-center justify-center gap-2 shadow-xl shadow-red-600/30 hover:shadow-red-600/50 hover:-translate-y-0.5"
           >
             <Camera className="w-4 h-4 text-white" />
-            <span>Rent Equipment</span>
+            <span>Sewa Peralatan</span>
           </button>
         </div>
 
@@ -106,7 +106,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
               <Camera className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-white">Cinema Ready</p>
+              <p className="text-xs font-semibold text-white">Standar Sinema</p>
               <p className="text-[11px] text-neutral-400">Sony FX6, RED, Arri</p>
             </div>
           </div>
@@ -116,8 +116,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
               <Film className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-white">Full Production</p>
-              <p className="text-[11px] text-neutral-400">Script to Master DCP</p>
+              <p className="text-xs font-semibold text-white">Produksi Penuh</p>
+              <p className="text-[11px] text-neutral-400">Naskah s/d Master DCP</p>
             </div>
           </div>
 
@@ -126,8 +126,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
               <ShieldCheck className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-white">Maintained Gear</p>
-              <p className="text-[11px] text-neutral-400">Tested & Cleaned</p>
+              <p className="text-xs font-semibold text-white">Gear Terawat</p>
+              <p className="text-[11px] text-neutral-400">Teruji & Siap Syuting</p>
             </div>
           </div>
 
@@ -136,8 +136,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRentEquipment }
               <Play className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-white">Vetted Crew</p>
-              <p className="text-[11px] text-neutral-400">Directors, DoPs & Gaffers</p>
+              <p className="text-xs font-semibold text-white">Kru Berpengalaman</p>
+              <p className="text-[11px] text-neutral-400">Sutradara, DoP & Gaffer</p>
             </div>
           </div>
         </div>
